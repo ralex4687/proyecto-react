@@ -3,7 +3,7 @@ const CartWidgetRI = () => {
     return (
         <div>
             <BsCart4 fontSize={'1.3rem'} />
-            <span style={{ color: "red", fontWeight: "bold" }} 
+            <Badge bg="success">{props.compras}</Badge>
         </div>
     )
 }
