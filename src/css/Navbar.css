@@ -1,0 +1,20 @@
+.nav-container {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anchor-nav {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
