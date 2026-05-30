@@ -9,7 +9,7 @@ const Navbar = () => {
             <a className="anchor-nav" href="">Nuevos</a>
             <a className="anchor-nav" href="">Ofertas</a>
             <a className="anchor-nav" href="">Mas vendidos</a>
-            <CartWidget/>
+            <CartWidget compras ={15}/>
         </nav>
     )
 }

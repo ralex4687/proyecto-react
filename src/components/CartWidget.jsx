@@ -7,4 +7,4 @@ const CartWidget = (props) => {
     )
 }
 
-export default CartWidget
+export default CartWidget 
