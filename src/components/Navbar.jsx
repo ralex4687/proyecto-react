@@ -6,9 +6,10 @@ const Navbar = () => {
             <a className="anchor-nav" href="">
                 <img className="logo" alt='logo' src='../logo-portaldepiedras.png' />
             </a>
-            <a className="anchor-nav" href="">Nuevos</a>
-            <a className="anchor-nav" href="">Ofertas</a>
-            <a className="anchor-nav" href="">Mas vendidos</a>
+            <a className="anchor-nav" href="">Inicio / Todo el menú</a>
+            <a className="anchor-nav" href="">Pizzas</a>
+            <a className="anchor-nav" href="">Empanadas</a>
+            <a className="anchor-nav" href="">Bebidas</a>
             <CartWidget compras ={15}/>
         </nav>
     )
